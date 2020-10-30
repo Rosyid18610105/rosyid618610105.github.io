@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Komentar</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="post" action="1.html">
+		<label for="nama">Nama:</label><br>
+		<input type="text" name="nama" placeholder="nama lengkap anda" required><br> 
+		<label for="email">Email:</label><br>
+		<input type="email" name="email" placeholder="email@mail.com" required><br>
+		<label for="jenis kelamin">Jenis Kelamin:</label><br>
+		<input type="radio" name="jenis kelamin" value="L">L<br> 
+		<input type="radio" name="jenis kelamin" value="P">P<br> 
+		<label for="wn">Kwarganegaraan:</label><br>
+		<select name="wn">
+			<option value="INDO">Indonesia</option>
+			<option value="MLY">Malaysia</option>
+			<option value="SG">Singapura</option>
+		</select><br>
+		<label for="komentar">Komentar:</label><br>
+		<textarea name="komentar"></textarea><br>
+		<input type="submit" name="submit" value="Kirim" style=" margin-left: 120px">
+	</form>
+</body>
+</html>
